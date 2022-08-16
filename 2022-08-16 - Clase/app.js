@@ -23,6 +23,7 @@ console.log(producto);
 //console.log(informacion.medidas.medida);
 //console.log(nombre);
 //console.log(informacion.fabricacion);
+//workbench.action.terminal.clear();
 console.clear();
 Object.seal(producto);
 producto.disponible = false;
