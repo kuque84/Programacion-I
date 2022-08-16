@@ -11,3 +11,5 @@ const producto = {
              }
     }
 }
+
+console.log(producto.informacion.fabricacion.anio)
