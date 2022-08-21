@@ -17,6 +17,7 @@ console.log (`${nom} ${ape}, ${doc} - ${area}`);
 */
 
 /*  assing and spread   */
+/*
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 30,
@@ -34,3 +35,38 @@ const fabricacion={
 const resultado = {...producto, ...medidas, ...fabricacion};
 
 console.log(resultado);
+*/
+
+/*  Funcion dentro de Objeto    */
+/*
+const producto = {
+    nombre: "Monitor 20 pulgadas",
+    precio: 30,
+    disponible: true,
+    mostrarInfo: function() {
+        console.log(`El Producto: ${this.nombre} tiene un precio de $${this.precio}`);
+    }
+}
+producto.mostrarInfo();
+*/
+
+/*      Object Literal      */
+/*
+const producto ={
+    nombre: "Monitor 20 pulgadas",
+    precio: 30,
+    disponible: true,
+}
+*/
+
+/*      Object Construtor CONSTRUCTOR       */
+/*
+function Producto (nombre, precio) {
+    this.nombre = nombre;
+    this.precio = precio;
+}
+const producto2 = new Producto ("Monitor 23 Pulgadas", "35");
+console.log(producto2);
+const producto3 = new Producto ("Monitor 42 Pulgadas", "50");
+console.log(producto3);
+*/
