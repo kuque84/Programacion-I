@@ -1,0 +1,78 @@
+body{
+    margin-left: 15%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgray;
+}
+div{
+    padding: 8px 20px;
+    margin: 4px;
+    border: solid;
+    border-color: brown;
+    border-radius: 2%;
+    max-width: 480px;
+    min-width: 40%;
+}
+.ingreso{
+    background-color: wheat;
+}
+.listado{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+input{
+    max-width: 90%;
+    margin: 8px 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+input:focus{
+    border: solid;
+    border-color: brown;
+    font-weight: bold;
+}
+
+/*
+a{
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin: 8px 20px;
+    border-radius: 5%;
+}
+a:hover{
+    color: black;
+    background-color: chocolate;
+    font-weight: bold;
+}
+*/
+button{
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin: 8px 20px;
+    border-radius: 5%;
+}
+button:hover{
+    color: black;
+    background-color:cyan;
+    font-weight: bold;
+}
+button:active {
+    background-color: cyan;
+    transform: translateY(2px);
+  }
+.btningresar{
+    background-color: rgb(0, 162, 255);
+}
+.btnlistar{
+    background-color: rgb(55, 170, 55);
+}
+.incorrecto{
+    color: red;
+}
+.correcto{
+    color: blue;
+}

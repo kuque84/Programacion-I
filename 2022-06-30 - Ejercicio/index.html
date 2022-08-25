@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/bola8transp.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Designed by | Grupo 8</title>
+</head>
+<body>
+    <div class="ingreso">
+    <form id="formulario">
+        <h1>Ingreso de Productos</h1>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre"><br>
+        <label for="valor">Valor:</label><br>
+        <input type="number" id="valor"><br>
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" id="cantidad"><br>
+    </form>
+    <button onclick="ingresar()" class= "btningresar" id="btningresar">Ingresar</button>
+    <br><button onclick="listar()" class= "btnlistar" id="btnlistar">Listar Productos</button>
+    <p class="correcto" id="correcto"></p>
+    <p class="incorrecto" id="mensaje"></p>
+    </div>
+    <div class="listado">
+        <h1>Lista de Productos</h1>
+        <p id="lista"></p>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
